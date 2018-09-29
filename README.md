@@ -80,7 +80,7 @@ const path = require('path');
 const express = require('express');
 const React = require('react');
 const ReactDOMServer = require('react-dom/server');
-const App = require('../components/App');
+const App = require('../components/App').default;
 const assets = require('./assets.json');
 
 const app = express();
